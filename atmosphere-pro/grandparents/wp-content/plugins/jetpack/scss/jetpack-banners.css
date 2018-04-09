@@ -1,8 +1,8 @@
 /*
 Error: File to import not found or unreadable: _inc/client/scss/functions/rem.
        Load path: /home/dominic
-        on line 1 of /home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss
-        from line 4 of /home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss
+        on line 1 of /home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss
+        from line 4 of /home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss
 
 1: @import "_utilities/mixins/breakpoint",
 2: 	"atoms/typography/variables",
@@ -10,8 +10,8 @@ Error: File to import not found or unreadable: _inc/client/scss/functions/rem.
 4: 	"organisms/banners";
 
 Backtrace:
-/home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss:1
-/home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss:4
+/home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss:1
+/home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss:4
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -55,18 +55,17 @@ Backtrace:
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
 /var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:294:in `watch'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin.rb:109:in `method_missing'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: _inc/client/scss/functions/rem.\A        Load path: /home/dominic\A         on line 1 of /home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss\A         from line 4 of /home/dominic/customscripts/Web_Development/wordpress/CodeForAbq/wp-content/themes/atmosphere-pro/atmosphere-pro-bak/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss\A \A 1: @import \"_utilities/mixins/breakpoint\",\A 2: 	\"atoms/typography/variables\",\A 3: 	\"atoms/typography/functions\",\A 4: 	\"organisms/banners\";"; }
+  content: "Error: File to import not found or unreadable: _inc/client/scss/functions/rem.\A        Load path: /home/dominic\A         on line 1 of /home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/organisms/_banners.scss\A         from line 4 of /home/dominic/customscripts/Web_Development/wordpress/grandparents/atmosphere-pro/grandparents/wp-content/plugins/jetpack/scss/jetpack-banners.scss\A \A 1: @import \"_utilities/mixins/breakpoint\",\A 2: 	\"atoms/typography/variables\",\A 3: 	\"atoms/typography/functions\",\A 4: 	\"organisms/banners\";"; }
